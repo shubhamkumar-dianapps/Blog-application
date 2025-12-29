@@ -1,0 +1,836 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-12-23T08:57:49.863Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "1",
+    "object_repr": "Django Essentials",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-12-24T05:20:07.843Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "2",
+    "object_repr": "About Nothing",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-12-24T06:42:09.736Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "Who is the Goat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-12-24T06:42:37.651Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "4",
+    "object_repr": "King my foot",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-12-26T09:45:27.926Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Shubham on Who is the Goat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-12-29T04:21:23.241Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "Who is the Goat",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-12-29T04:21:36.341Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "4",
+    "object_repr": "King my foot",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-12-29T04:21:42.705Z",
+    "user": 1,
+    "content_type": 1,
+    "object_id": "3",
+    "object_repr": "Who is the Goat",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-12-29T05:16:53.013Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 1,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 1,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 1,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 1,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 2,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 2,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 2,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 2,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 4,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 4,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 4,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 4,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 5,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 5,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 5,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 5,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 6,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 6,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 6,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 6,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 7,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 7,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 7,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 7,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$IRKn5g7eTvM2QP2ZMRWRg6$0LCyxiLlh0EH/iK+nEBBcgT5/ScX6BgYokAFXyE82DA=",
+    "last_login": "2025-12-29T04:20:53.856Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-12-23T08:50:07.909Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0fe3hx6l7tvmc3m2nzdmkmh6iwz52pcd",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAQxhcuvcMZBgGqZqSlHZlvLs26UK3_733XyrRtra0DVnSVNRZGXX63TLxQ-YdlDvNt665z-syZb0r-qBDX3uR5-Vw_w4ajfatoVS2QmSDMQHRABp0zkoG9IUhgkhECIUiG4zsha31PlMNlb2LVr0_2eU3ug:1vXyBV:fUttUUvS4wM9v2wvijj8pfGUd97aXXfuAxCRTwv6Hrk",
+    "expire_date": "2026-01-06T08:56:01.171Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8t97twd4z7phcjmfqqblk4kk3210xdi1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAQxhcuvcMZBgGqZqSlHZlvLs26UK3_733XyrRtra0DVnSVNRZGXX63TLxQ-YdlDvNt665z-syZb0r-qBDX3uR5-Vw_w4ajfatoVS2QmSDMQHRABp0zkoG9IUhgkhECIUiG4zsha31PlMNlb2LVr0_2eU3ug:1va4kX:dovwn1XV9pSjzhBvca2ucvi2Dlz66V-l9ilPCV76g0E",
+    "expire_date": "2026-01-12T04:20:53.865Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bglkdr0r2lf26yhw1le25b9msjh52i2z",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAQxhcuvcMZBgGqZqSlHZlvLs26UK3_733XyrRtra0DVnSVNRZGXX63TLxQ-YdlDvNt665z-syZb0r-qBDX3uR5-Vw_w4ajfatoVS2QmSDMQHRABp0zkoG9IUhgkhECIUiG4zsha31PlMNlb2LVr0_2eU3ug:1vZ4NV:jFNYFsTtNQ534-8E0-V8Uaq5TFW0I9d-6XvwGkbFZXs",
+    "expire_date": "2026-01-09T09:44:57.469Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ngo7wcw0krap8v7lnl9ozswlz0judzmg",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAQxhcuvcMZBgGqZqSlHZlvLs26UK3_733XyrRtra0DVnSVNRZGXX63TLxQ-YdlDvNt665z-syZb0r-qBDX3uR5-Vw_w4ajfatoVS2QmSDMQHRABp0zkoG9IUhgkhECIUiG4zsha31PlMNlb2LVr0_2eU3ug:1vYHHp:thzqmkWxI7puQ0y0GgLhUpbdZal-RVhKDGRPYiXrJ6s",
+    "expire_date": "2026-01-07T05:19:49.912Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pufplo231yelov1m69gurmcf2192ms1x",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pAAQxhcuvcMZBgGqZqSlHZlvLs26UK3_733XyrRtra0DVnSVNRZGXX63TLxQ-YdlDvNt665z-syZb0r-qBDX3uR5-Vw_w4ajfatoVS2QmSDMQHRABp0zkoG9IUhgkhECIUiG4zsha31PlMNlb2LVr0_2eU3ug:1vZ6FF:WNrgKs-cQHw0VVmJ6yh1VPnTSXmGbjIlctz-_4lYvPY",
+    "expire_date": "2026-01-09T11:44:33.984Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Coding",
+    "slug": "coding"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Apple",
+    "slug": "apple"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Story",
+    "slug": "story"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "English",
+    "slug": "english"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 1,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 1,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 1,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 1,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 1,
+    "object_id": 4
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Django Essentials",
+    "slug": "django-essentials",
+    "body": "Framework for Creating Backend, and building modern web sites with its vast and quality with its batteries included compatibility.",
+    "publish": "2025-12-23T08:56:06Z",
+    "created": "2025-12-23T08:57:49.861Z",
+    "updated": "2025-12-23T08:57:49.861Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "About Nothing",
+    "slug": "about-nothing",
+    "body": "No one is Wrong it's circumstances",
+    "publish": "2025-12-23T09:47:35Z",
+    "created": "2025-12-23T09:47:39.596Z",
+    "updated": "2025-12-24T05:20:07.839Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Who is the Goat",
+    "slug": "who-is-the-goat",
+    "body": "Cristiano Ronaldo! I am the best in the Word\r\n\"Give text\" usually refers to Text-to-Give (or SMS Giving), a fundraising method where donors text a keyword/amount to a number to donate via their phone, receiving a link to a mobile donation page for quick, convenient giving, streamlining donations for charities and capturing donor info. It's easy: text a keyword (like \"GIVE\" or a campaign code) to a shortcode/number, get a link, and complete payment on the mobile-friendly site, making giving instant and flexible",
+    "publish": "2025-12-24T06:40:48Z",
+    "created": "2025-12-24T06:42:09.734Z",
+    "updated": "2025-12-29T04:21:42.697Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "King my foot",
+    "slug": "king-my-foot",
+    "body": "\"Give text\" usually refers to Text-to-Give (or SMS Giving), a fundraising method where donors text a keyword/amount to a number to donate via their phone, receiving a link to a mobile donation page for quick, convenient giving, streamlining donations for charities and capturing donor info. It's easy: text a keyword (like \"GIVE\" or a campaign code) to a shortcode/number, get a link, and complete payment on the mobile-friendly site, making giving instant and flexible",
+    "publish": "2025-12-24T06:42:13Z",
+    "created": "2025-12-24T06:42:37.647Z",
+    "updated": "2025-12-29T04:21:36.327Z",
+    "status": "PB",
+    "author": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 3,
+    "name": "Shubham",
+    "email": "shubham7274032822@gmail.com",
+    "body": "I agree 0%",
+    "created": "2025-12-26T09:45:27.922Z",
+    "updated": "2025-12-26T09:45:27.922Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "name": "Shubham",
+    "email": "nihax46135@docsfy.com",
+    "body": "Hello Good Blg",
+    "created": "2025-12-29T03:42:59.223Z",
+    "updated": "2025-12-29T03:42:59.223Z",
+    "active": true
+  }
+}
+]
