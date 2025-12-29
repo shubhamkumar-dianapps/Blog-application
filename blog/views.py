@@ -9,6 +9,7 @@ from taggit.models import Tag
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector
 from .forms import SearchForm
+from django.contrib.postgres.search import TrigramSimilarity
 
 
 class PostListView(ListView):
@@ -130,9 +131,11 @@ def post_search(request):
             query = form.cleaned_data["query"]
             # We annotate the queryset with a 'search' field
             # made of the title and body
-            results = Post.published.annotate(
-                search=SearchVector("title", "body"),
-            ).filter(search=query)
+            results = (
+                Post.published.annotate(similarity=TrigramSimilarity("title", query))
+                .filter(similarity__gt=0.1)
+                .order_by("-similarity")
+            )
 
     return render(
         request,
